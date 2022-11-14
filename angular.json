@@ -94,8 +94,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "travelgram:build:production",
+            "firebaseProject": "angular101-64b13",
+            "firebaseHostingSite": "angular101-64b13"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

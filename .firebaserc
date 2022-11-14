@@ -1,0 +1,28 @@
+{
+  "targets": {
+    "angular01-3cbc8": {
+      "hosting": {
+        "travelgram": [
+          "angular01-3cbc8"
+        ]
+      }
+    },
+    "angular-2109f": {
+      "hosting": {
+        "travelgram": [
+          "angular-2109f"
+        ]
+      }
+    },
+    "angular101-64b13": {
+      "hosting": {
+        "travelgram": [
+          "angular101-64b13"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular101-64b13"
+  }
+}
